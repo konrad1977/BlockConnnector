@@ -3,7 +3,6 @@ BlockConnnector
 
 Connect and request your data using Blocks/Lambdas. I tried to make the code stick togheter using Contination Passing Style (CPS).
 
-Example
 
 		[[self blockConnector] post:^(NSMutableURLRequest *request) {
         	[request setURL:[self requestURL]];

@@ -1,7 +1,7 @@
 BlockConnnector
 ===============
 
-Connect and request your data using Blocks/Lambdas. I tried to make the code stick togheter using Contination Passing Style (CPS).
+Connect and request your data using Blocks/Lambdas. I heavenly use Continuation Passing Style (CPS).
 
 
 		[[self blockConnector] post:^(NSMutableURLRequest *request) {
@@ -22,4 +22,7 @@ Connect and request your data using Blocks/Lambdas. I tried to make the code sti
 			//Something went wrong
         }];
 
-When you use CPS you wont need to write the call back methods for a Delegate, also your code looks like its syncronous but its asynchrounous.
+CPS makes you code look synchronous even if its asynchronous.
+CPS replaces delegate/call backs (and its much cleaner)
+
+License. MIT / BSD 

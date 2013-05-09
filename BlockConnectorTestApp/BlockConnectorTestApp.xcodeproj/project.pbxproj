@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1266ABD173BD38F00364716 /* NSDictionary+JsonData.m in Sources */ = {isa = PBXBuildFile; fileRef = C1266ABC173BD38F00364716 /* NSDictionary+JsonData.m */; };
+		C1266AC0173BD6FE00364716 /* GameRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = C1266ABF173BD6FE00364716 /* GameRequester.m */; };
+		C198CB11173B9C3100E80B21 /* BlockConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = C198CB0F173B9C3100E80B21 /* BlockConnector.m */; };
+		C198CB14173B9DF000E80B21 /* NSData+ToString.m in Sources */ = {isa = PBXBuildFile; fileRef = C198CB13173B9DF000E80B21 /* NSData+ToString.m */; };
+		C1C4A3BF173BDA5700B4BE24 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C4A3BE173BDA5700B4BE24 /* Game.m */; };
 		C1DCD4EB173B985500B3517B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DCD4EA173B985500B3517B /* UIKit.framework */; };
 		C1DCD4ED173B985500B3517B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DCD4EC173B985500B3517B /* Foundation.framework */; };
 		C1DCD4EF173B985500B3517B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DCD4EE173B985500B3517B /* CoreGraphics.framework */; };
@@ -16,12 +21,20 @@
 		C1DCD4FD173B985500B3517B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DCD4FC173B985500B3517B /* Default.png */; };
 		C1DCD4FF173B985500B3517B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DCD4FE173B985500B3517B /* Default@2x.png */; };
 		C1DCD501173B985500B3517B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DCD500173B985500B3517B /* Default-568h@2x.png */; };
-		C1DCD504173B985500B3517B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD503173B985500B3517B /* ViewController.m */; };
-		C1DCD507173B985500B3517B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DCD505173B985500B3517B /* ViewController_iPhone.xib */; };
-		C1DCD50A173B985500B3517B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DCD508173B985500B3517B /* ViewController_iPad.xib */; };
+		C1DCD504173B985500B3517B /* GameTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD503173B985500B3517B /* GameTableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1266ABB173BD38F00364716 /* NSDictionary+JsonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JsonData.h"; path = "../Src/NSDictionary+JsonData.h"; sourceTree = "<group>"; };
+		C1266ABC173BD38F00364716 /* NSDictionary+JsonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JsonData.m"; path = "../Src/NSDictionary+JsonData.m"; sourceTree = "<group>"; };
+		C1266ABE173BD6FE00364716 /* GameRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRequester.h; sourceTree = "<group>"; };
+		C1266ABF173BD6FE00364716 /* GameRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRequester.m; sourceTree = "<group>"; };
+		C198CB0F173B9C3100E80B21 /* BlockConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlockConnector.m; path = ../Src/BlockConnector.m; sourceTree = "<group>"; };
+		C198CB10173B9C3100E80B21 /* BlockConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlockConnector.h; path = ../Src/BlockConnector.h; sourceTree = "<group>"; };
+		C198CB12173B9DF000E80B21 /* NSData+ToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+ToString.h"; path = "../Src/NSData+ToString.h"; sourceTree = "<group>"; };
+		C198CB13173B9DF000E80B21 /* NSData+ToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+ToString.m"; path = "../Src/NSData+ToString.m"; sourceTree = "<group>"; };
+		C1C4A3BD173BDA5700B4BE24 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		C1C4A3BE173BDA5700B4BE24 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		C1DCD4E7173B985500B3517B /* BlockConnectorTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockConnectorTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DCD4EA173B985500B3517B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C1DCD4EC173B985500B3517B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,10 +48,8 @@
 		C1DCD4FC173B985500B3517B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C1DCD4FE173B985500B3517B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C1DCD500173B985500B3517B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C1DCD502173B985500B3517B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C1DCD503173B985500B3517B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C1DCD506173B985500B3517B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		C1DCD509173B985500B3517B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		C1DCD502173B985500B3517B /* GameTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameTableController.h; sourceTree = "<group>"; };
+		C1DCD503173B985500B3517B /* GameTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameTableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C198CB15173B9DF400E80B21 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				C198CB0F173B9C3100E80B21 /* BlockConnector.m */,
+				C198CB10173B9C3100E80B21 /* BlockConnector.h */,
+				C198CB12173B9DF000E80B21 /* NSData+ToString.h */,
+				C198CB13173B9DF000E80B21 /* NSData+ToString.m */,
+				C1266ABB173BD38F00364716 /* NSDictionary+JsonData.h */,
+				C1266ABC173BD38F00364716 /* NSDictionary+JsonData.m */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
 		C1DCD4DE173B985500B3517B = {
 			isa = PBXGroup;
 			children = (
+				C198CB15173B9DF400E80B21 /* Src */,
 				C1DCD4F0173B985500B3517B /* BlockConnectorTestApp */,
 				C1DCD4E9173B985500B3517B /* Frameworks */,
 				C1DCD4E8173B985500B3517B /* Products */,
@@ -85,12 +110,14 @@
 		C1DCD4F0173B985500B3517B /* BlockConnectorTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				C1C4A3BD173BDA5700B4BE24 /* Game.h */,
+				C1C4A3BE173BDA5700B4BE24 /* Game.m */,
+				C1266ABE173BD6FE00364716 /* GameRequester.h */,
+				C1266ABF173BD6FE00364716 /* GameRequester.m */,
 				C1DCD4F9173B985500B3517B /* AppDelegate.h */,
 				C1DCD4FA173B985500B3517B /* AppDelegate.m */,
-				C1DCD502173B985500B3517B /* ViewController.h */,
-				C1DCD503173B985500B3517B /* ViewController.m */,
-				C1DCD505173B985500B3517B /* ViewController_iPhone.xib */,
-				C1DCD508173B985500B3517B /* ViewController_iPad.xib */,
+				C1DCD502173B985500B3517B /* GameTableController.h */,
+				C1DCD503173B985500B3517B /* GameTableController.m */,
 				C1DCD4F1173B985500B3517B /* Supporting Files */,
 			);
 			path = BlockConnectorTestApp;
@@ -165,8 +192,6 @@
 				C1DCD4FD173B985500B3517B /* Default.png in Resources */,
 				C1DCD4FF173B985500B3517B /* Default@2x.png in Resources */,
 				C1DCD501173B985500B3517B /* Default-568h@2x.png in Resources */,
-				C1DCD507173B985500B3517B /* ViewController_iPhone.xib in Resources */,
-				C1DCD50A173B985500B3517B /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +204,12 @@
 			files = (
 				C1DCD4F7173B985500B3517B /* main.m in Sources */,
 				C1DCD4FB173B985500B3517B /* AppDelegate.m in Sources */,
-				C1DCD504173B985500B3517B /* ViewController.m in Sources */,
+				C1DCD504173B985500B3517B /* GameTableController.m in Sources */,
+				C198CB11173B9C3100E80B21 /* BlockConnector.m in Sources */,
+				C198CB14173B9DF000E80B21 /* NSData+ToString.m in Sources */,
+				C1266ABD173BD38F00364716 /* NSDictionary+JsonData.m in Sources */,
+				C1266AC0173BD6FE00364716 /* GameRequester.m in Sources */,
+				C1C4A3BF173BDA5700B4BE24 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +222,6 @@
 				C1DCD4F4173B985500B3517B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C1DCD505173B985500B3517B /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1DCD506173B985500B3517B /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		C1DCD508173B985500B3517B /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1DCD509173B985500B3517B /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -312,6 +326,7 @@
 				C1DCD50F173B985500B3517B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
